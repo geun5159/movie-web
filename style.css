@@ -1,0 +1,29 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  #movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #movieList div {
+    border: 1px solid #f8c8c8;
+    padding: 10px;
+    border-radius: 8px;
+    width: 220px;
+    transition: transform 0.3s;
+  }
+  
+  #movieList div:hover {
+    transform: scale(1.05);
+  }
+  
+  
